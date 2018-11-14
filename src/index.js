@@ -24,10 +24,10 @@ class App extends Component {
         return (
             <Center>
             <div>
-        
-            <p style={Header}>Argus</p>
-                
+            
+            <p style={Header}>Argus</p>     
             <Webcam />
+            
             
             <Button style={Button1}> Click to Scan </Button>
             </div>

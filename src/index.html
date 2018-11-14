@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>React Boilerplate</title>
-</head>
+    <style type="text/css"> 
+    h1{
+        //padding: 50px 100px;
+        font-size: 12px;
+        background-color: darkturquoise;
+        text-decoration: none;
+        
+        height: 80px;
+        line-height: 22px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    p{
+        color:blue;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    button{
+        //margin:0px 0px 0px 300px;  
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+    </style> 
+    
+    <script type="text/javascript">
+    
+    function abcd()
+    {
+        window.location.href="login.html";
+        
+    }
+        
+    function abcde()
+        {
+            window.location.href="register.html";
+        }
+        
+    function trail()
+        {
+            window.location.href="index2.html";
+        }
+        
+    </script>
+    
 
+    
 <body>
-    <div id="root">
-
-    </div>
+    <h1><p>Username:  <input value="input your username"></p></br>
+    <p>Password:    <input value="input your password"></p>
+    </h1>
+    
+    <button onclick="abcd()">login</button>
+    <button onclick="abcde()">don't have an account?</button>
+    <button onclick="trail()">try our Argus for free</button>
+    
 </body>
 
-    <script src="../dist/index_bundle.js">
-    
-    </script>
 </html>
